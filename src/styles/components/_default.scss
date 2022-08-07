@@ -11,13 +11,24 @@ html{
 
 body{
     width: 100%;
+}
 
+body::-webkit-scrollbar{
+    width: 5px;
+}
+body::-webkit-scrollbar-track{
+    width: 5px;
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb{
+    width: 5px;
+    background: $text-color-dark;
+    border-radius: 10px;
 }
 
 main{
     width: 100%;
-    min-height: 700px;
-    height: 100vh;
+    min-height: 790px;
     background-color: $body;
 }
 

@@ -40,18 +40,51 @@
                     <input type="search" placeholder="Search Vectors...">
                     <img src="src/images/icons/search.svg" alt="Search">
                 </div>
-                <nav>
-                    <ul>
-                        <li>latest</li>
+                <nav id="product-nav">
+                    <ul style="width: 38rem;">
+                        <li id="latest">Latest</li>
                         <li>Popular</li>
-                        <li>Premium</li>
-                        <li>Free</li>
+                        <li id="premium">Premium</li>
+                        <li id="free">Free</li>
                     </ul>
-                    <ul>
-                        <li></li>
-                        <li></li>
+                    <ul style="width: 6rem;">
+                        <li><img src="src/images/icons/settings.svg" style="cursor: pointer;" alt="Settings"></li>
+                        <li><img src="src/images/icons/addto.svg" style="cursor: pointer;" alt="addto"></li>
                     </ul>
                 </nav>
+                <section id="product-card-container">
+                    <div id="product-sub-container">
+                        <aside>
+                            <div id="card-image1"></div>
+                            <h2><span>D</span>og illustration</h2>
+                            <pre><a href="">Download</a><i class="fa-solid fa-arrow-down" style="font-size: 1.4rem;"></i></pre>
+                        </aside>
+                        <aside style="filter: drop-shadow(0px 72px 101px rgba(0, 0, 0, 0.06)) drop-shadow(0px 14.4px 16.4125px rgba(0, 0, 0, 0.03));">
+                            <div id="card-image2"></div>
+                            <h2><span>D</span>og illustration</h2>
+                            <pre><a href="">Download</a><i class="fa-solid fa-arrow-down" style="font-size: 1.4rem;"></i></pre>
+                        </aside>
+                        <aside>
+                            <div id="card-image3"></div>
+                            <h2><span>D</span>og illustration</h2>
+                            <pre><a href="">Download</a><i class="fa-solid fa-arrow-down" style="font-size: 1.4rem;"></i></pre>
+                        </aside>
+                    </div>
+                </section>
+                <section id="after-select">
+                    <div>
+                        <a href="#">Discover All<br>Collections</a>
+                        <img src="/src/images/illustrations/collections.svg" alt="collections">
+                    </div>
+                    <button id="next_btn">Next Page  <i class="fa-solid fa-arrow-right" style="padding-left: 2rem;"></i></button>
+                    <aside>
+                        <p>Page</p>
+                        <button><i class="fa-solid fa-angle-left"></i></button>
+                        <button style="background-color: white; border: 4px solid #EFEFEF;">1</button>
+                        <button><i class="fa-solid fa-angle-right"></i></button>
+                        <p>of 120</p>
+                    </aside>
+                </section>
             </section>
         </header>
     </main>
