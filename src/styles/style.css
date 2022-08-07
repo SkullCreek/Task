@@ -33,7 +33,7 @@ a {
   text-decoration: none;
 }
 
-nav {
+#MR-nav {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -44,7 +44,7 @@ nav {
   padding: 3rem 10rem;
 }
 
-nav ul {
+#MR-nav ul {
   width: 42rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,23 +57,23 @@ nav ul {
           align-items: center;
 }
 
-nav ul img {
+#MR-nav ul img {
   width: 40px;
   height: 40px;
 }
 
-nav ul li {
+#MR-nav ul li {
   font-family: "poppins";
   font-size: 1.5rem;
   color: #979797;
   font-weight: 500;
 }
 
-nav ul li a {
+#MR-nav ul li a {
   color: #979797;
 }
 
-nav div {
+#MR-nav div {
   width: 26rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -86,7 +86,7 @@ nav div {
           align-items: center;
 }
 
-nav div button {
+#MR-nav div button {
   padding: 1rem 1.8rem;
   border: 2px solid #979797;
   border-radius: .6rem;
@@ -103,10 +103,96 @@ nav div button {
           align-items: center;
 }
 
-nav div img {
+#MR-nav div img {
   width: 4rem;
   height: 4rem;
   -webkit-filter: drop-shadow(-7.38px 17.51px 27px rgba(0, 0, 0, 0.1)) drop-shadow(-2.84px 6.74px 8.6px rgba(0, 0, 0, 0.0607)) drop-shadow(-0.6px 1.43px 2.2px rgba(0, 0, 0, 0.0393));
           filter: drop-shadow(-7.38px 17.51px 27px rgba(0, 0, 0, 0.1)) drop-shadow(-2.84px 6.74px 8.6px rgba(0, 0, 0, 0.0607)) drop-shadow(-0.6px 1.43px 2.2px rgba(0, 0, 0, 0.0393));
+}
+
+#hero {
+  width: 100%;
+  padding: 0 10rem 3rem 10rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#hero h1 {
+  font-family: "poppins";
+  font-size: 4.3rem;
+  color: #222429;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+#hero p {
+  width: 40rem;
+  font-family: "poppins";
+  font-size: 1.6rem;
+  color: #979797;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+#hero #search-container {
+  width: 54rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+#hero #search-container input {
+  padding: 1.6rem;
+  width: 42rem;
+  border: none;
+  font-family: "poppins";
+  font-size: 1.2rem;
+  color: #979797;
+  font-weight: 600;
+  outline: none;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+#hero #search-container #option-container {
+  height: 5.04rem;
+  background-color: white;
+  padding: .6rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+#hero #search-container #option-container #options {
+  min-height: 100%;
+  border: 2px solid #979797;
+  border-radius: .5rem;
+  background-color: transparent;
+  padding: .5rem 1rem;
+  font-family: "poppins";
+  font-size: 1.4rem;
+  color: #222429;
+  font-weight: 500;
+  outline: none;
+}
+
+#hero #search-container img {
+  width: 2rem;
+  height: 2rem;
+  -webkit-transform: translate(-35px);
+          transform: translate(-35px);
 }
 /*# sourceMappingURL=style.css.map */
