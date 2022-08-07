@@ -1,0 +1,108 @@
+@media (max-width: 1200px) and (min-width: 1040px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 1040px) and (min-width: 800px) {
+    html {
+        font-size: 42%;
+    }
+}
+
+@media (max-width: 800px) and (min-width:500px){
+    html {
+        font-size: 42%;
+    }
+}
+@media (max-width: 500px){
+    html {
+        font-size: 48%;
+    }
+}
+
+@media (max-width: 794px) {
+    #hero{
+        #product-card-container{
+            overflow-y: scroll;
+            #product-sub-container{
+                aside{
+                    margin-right: 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 574px) {
+    #hero{
+        padding: 0 4rem 3rem 4rem;
+    }
+    #MR-nav{
+        padding: 3rem 4rem 1rem 4rem;
+    }
+}
+
+@media (max-width: 500px) {
+    #hero{
+        padding: 0 2rem 3rem 2rem;
+    }
+    #MR-nav{
+        padding: 3rem 2rem 4rem 2rem;
+        ul{
+            li{
+                display: none;
+            }
+            
+        }
+        #responsive{
+            display: none!important;
+        }
+    }
+    #after-select{
+        justify-content: center!important;
+        div{
+            display: none!important;
+        }
+        aside{
+            display: none!important;
+        }
+    }
+    #hero{
+        h1{
+            text-align: center;
+        }
+        #product-card-container{
+            overflow-y: scroll;
+            position: relative;
+            height: 38.8rem;
+            #product-sub-container{
+                position: absolute;
+                left: 0;
+                aside{
+                    margin-right: 2rem;
+                }
+            }
+        }
+    }
+    #search-container{
+        width: 100%!important;
+        input{
+            width: 100%!important;
+        }
+    }
+    #product-nav{
+        #product-nav-ul{
+            width: 30rem!important;
+            #premium::after{
+                top: 50%;
+                transform: translateY(-50%)!important;
+                left: -2rem!important;
+            }
+        }
+    }
+    #hamburger{
+        display: block!important;
+    }
+
+}

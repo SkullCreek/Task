@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="shortcut icon" href="src/images/logo/logo.svg" type="image/x-icon">
     <title>GDSC Task</title>
 </head>
 <body>
-    <main>
+    <main style="position: absolute;">
         <header>
             <nav id="MR-nav">
                 <ul>
@@ -19,11 +24,12 @@
                     <li><a href="#">Video</a></li>
                     <li><a href="#" style="padding-right: 5px;color: black;">More</a><i class="fa-solid fa-caret-down" style="color: black;"></i></li>
                 </ul>
-                <div>
+                <div id="responsive">
                     <button><i class="fa-solid fa-plus" style="margin-right:.4rem"></i>Submit</button>
                     <img src="src/images/socials/mail.svg" style="transform: translate(2rem);" alt="Mail">
                     <img src="src/images/socials/facebook.svg" alt="Facebook">
                 </div>
+                <i style="font-size: 20px;display: none;"  id="hamburger" class="fa-solid fa-bars"></i>
             </nav>
             <section id="hero">
                 <h1>Popular Pro Stock Vectors</h1>
@@ -41,7 +47,7 @@
                     <img src="src/images/icons/search.svg" alt="Search">
                 </div>
                 <nav id="product-nav">
-                    <ul style="width: 38rem;">
+                    <ul id="product-nav-ul" style="width: 38rem;">
                         <li id="latest">Latest</li>
                         <li>Popular</li>
                         <li id="premium">Premium</li>
@@ -87,6 +93,19 @@
                 </section>
             </section>
         </header>
+        <div id="mobile-menu" class="animate__animated animate__zoomIn animate__faster">
+            <i class="fa-solid fa-xmark" id="cross-btn" style="font-size: 2rem;transform: translate(100px);"></i>
+            <li><a href="#">Vectors</a></li>
+            <li><a href="#">Photos</a></li>
+            <li><a href="#">PSD</a></li>
+            <li><a href="#">Video</a></li>
+            <li><a href="#" style="padding-right: 5px;color: black;">More</a><i class="fa-solid fa-caret-down" style="color: black;"></i></li>
+            <button><i class="fa-solid fa-plus" style="margin-right:.4rem"></i>Submit</button>
+            <div>
+                <img src="src/images/socials/mail.svg" style="margin-right: 20px;" alt="Mail">
+                <img src="src/images/socials/facebook.svg" alt="Facebook">
+            </div>
+        </div>
     </main>
     <script src="src/script/script.js"></script>
     <script src="https://kit.fontawesome.com/b182aa84d1.js" crossorigin="anonymous"></script>

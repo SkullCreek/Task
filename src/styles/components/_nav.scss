@@ -9,8 +9,8 @@
         justify-content: space-between;
         align-items: center;
         img{
-            width: 40px;
-            height: 40px;
+            width: 4rem;
+            height: 4rem;
         }
         li{
             @include font(1.5rem,$text-color,500);
@@ -38,5 +38,40 @@
             height: 4rem;
             filter: drop-shadow(-7.38px 17.51px 27px rgba(0, 0, 0, 0.1)) drop-shadow(-2.84px 6.74px 8.6px rgba(0, 0, 0, 0.0607)) drop-shadow(-0.6px 1.43px 2.2px rgba(0, 0, 0, 0.0393));
         }
+    }
+}
+
+#mobile-menu{
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $body;
+    display: none;
+    place-items: center;
+    z-index: 100;
+    padding: 4rem 0rem;
+
+    li{
+        list-style: none;
+        @include font(2.5rem,$text-color,500);
+        a{
+            color: $text-color;
+        }
+    }
+    button{
+        padding: 1rem 1.8rem;
+        border: 2px solid #979797;
+        border-radius: .6rem;
+        background-color: transparent;
+        @include font(1.4rem,$text-color,500);
+        display: flex;
+        align-items: center;
+    }
+    img{
+        width: 4rem;
+        height: 4rem;
+        filter: drop-shadow(-7.38px 17.51px 27px rgba(0, 0, 0, 0.1)) drop-shadow(-2.84px 6.74px 8.6px rgba(0, 0, 0, 0.0607)) drop-shadow(-0.6px 1.43px 2.2px rgba(0, 0, 0, 0.0393));
     }
 }
